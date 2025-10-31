@@ -10,14 +10,44 @@ public class Tests
     private readonly IShape sphere = new Sphere(5);
     
     //Cube Tests
-    
+    [Test]
+    public void TestCubeCalculateArea()
+    {
+        Assert.That(Cube.CalculateArea(), Is.EqualTo(150));
+    }
+
+    [Test]
+    public void TestCubeCalculateVolume()
+    {
+        Assert.That(Cube.CalculateVolume(), Is.EqualTo(125));
+    }
     
     //Cylider Tests
+    [Test]
+    public void TestCylinderCalculateArea()
+    {
+        Assert.That(Cylinder.CalculateArea(), Is.EqualTo(314.159).Within(0.001));
+    }
+
+    [Test]
+    public void TestCylinderCalculateVolume()
+    {
+        Assert.That(Cylinder.CalculateVolume(), Is.EqualTo(392.699).Within(0.001));
+    }
     
     
-    
-    //Rectangles Tests
-    
+    //Rectangle Tests
+    [Test]
+    public void TestRectangleCalculateArea()
+    {
+        Assert.That(Rectangle.CalculateArea(), Is.EqualTo(15));
+    }
+
+    [Test]
+    public void TestRectangleCalculateVolume()
+    {
+        Assert.That(Rectangle.CalculateVolume(), Is.EqualTo(0));
+    }
     
     
     //Sphere Tests
