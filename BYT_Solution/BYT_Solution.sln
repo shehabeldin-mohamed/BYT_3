@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryProject", "GeometryProject\GeometryProject.csproj", "{D5CEBA75-4560-404F-96FF-B6050BD096FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryProject_unit_tests", "GeometryProject_unit_tests\GeometryProject_unit_tests.csproj", "{304CE357-FC1C-4BCB-8135-6691662E1A28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{D5CEBA75-4560-404F-96FF-B6050BD096FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5CEBA75-4560-404F-96FF-B6050BD096FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5CEBA75-4560-404F-96FF-B6050BD096FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304CE357-FC1C-4BCB-8135-6691662E1A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304CE357-FC1C-4BCB-8135-6691662E1A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304CE357-FC1C-4BCB-8135-6691662E1A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304CE357-FC1C-4BCB-8135-6691662E1A28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
